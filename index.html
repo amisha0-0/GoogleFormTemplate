@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submitted.html">
+
+    <header>
+        <img src="googleform.png" alt="Header Image">
+        <div id="title" class="main">
+            <p>Contact information</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <label for='name'>Name <span>&#42;</span></label>
+            <br>
+            <br>
+            <input type="text" size="30" id="name" placeholder="Your answer" name="name" required>
+        </div>
+        <div class="main">
+            <label for="email">Email <span>&#42;</span></label>
+            <br>
+            <br>
+            <input type="email" size="30" id="email" placeholder="Your answer" name="email" required>
+           
+        </div>
+        <div class="main">
+            <label for="address">Address <span>&#42;</span></label>
+            <br>
+            <br>
+            <textarea name="address"  id="address" cols="75" rows="1" placeholder="Your answer" required></textarea>
+           
+        </div>
+        <div class="main">
+            <label for="number">Phone number</label>
+            <br>
+            <br>
+            <input type="text" maxlength="10" size="30" id="number" placeholder="Your answer" name="number">
+            
+        </div>
+        <div class="button">
+            <button id="submit">Submit</button>
+            <button type="reset" id="clear">Clear Form</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p id="foot1">Never submit passwords through google form.</p>
+        <p id="foot2">This content is neither created nor endorsed by Google. <span class="foot">Report Abuse</span>-<span class="foot">Terms of Service</span>-<span class="foot">Privacy Policy</span></p>
+        <p id="foot3"><span id="google">Google </span ><span id="formtext">Forms &#169; Amisha</span> </p>
+        
+    </footer>
+    </form>
+
+</body>
+</html>

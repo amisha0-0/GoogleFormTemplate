@@ -1,0 +1,61 @@
+body{
+    /* background-color: #f8edeb; */
+    background-color: #ede7f6;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin:10px 23% 20px 23%;
+}
+
+#head{
+    border:1px solid #dadce0;
+    border-radius: 8px;
+    background-color: white;
+    height: 100px;
+    width: 640px;
+    padding: 24px;
+    margin-bottom: 12px;
+    border-top-color:#9573c9 ;
+    border-top-width: 8px;
+}
+
+.title{
+    font-family: 'Google Sans', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight:400;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.msg{
+   font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+   letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+}
+
+#foot1{
+    font: 400 12px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 16px 0;
+    padding: 0 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.foot{
+    text-decoration: underline;
+}
+
+#foot2{
+    text-align: center;
+}
+#google{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color:rgb(170, 169, 169);
+    font-size: 25px;
+}
+#formtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color:rgb(170, 169, 169);
+    font-size: 25px;
+}
